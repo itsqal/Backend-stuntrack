@@ -1,0 +1,62 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model table_2019 {
+  id                       Int     @id
+  provinsi                 String?
+  jumlah_balita            Int?    @map("jumlah balita")
+  stunting__pendek_        Int?    @map("stunting (pendek)")
+  stunting__sangat_pendek_ Int?    @map("stunting (sangat pendek)")
+  persentase_stunting      Float?  @map("persentase stunting")
+}
+
+model table_2020 {
+  id                       Int     @id
+  provinsi                 String?
+  jumlah_balita            Int?    @map("jumlah balita")
+  stunting__pendek_        Int?    @map("stunting (pendek)")
+  stunting__sangat_pendek_ Int?    @map("stunting (sangat pendek)")
+  persentase_stunting      Float?  @map("persentase stunting")
+}
+
+model table_2021 {
+  id                       Int     @id
+  provinsi                 String?
+  jumlah_balita            Int?    @map("jumlah balita")
+  stunting__pendek_        Int?    @map("stunting (pendek)")
+  stunting__sangat_pendek_ Int?    @map("stunting (sangat pendek)")
+  persentase_stunting      Float?  @map("persentase stunting")
+}
+
+model table_2022 {
+  id                       Int     @id
+  provinsi                 String?
+  jumlah_balita            Int?    @map("jumlah balita")
+  stunting__pendek_        Int?    @map("stunting (pendek)")
+  stunting__sangat_pendek_ Int?    @map("stunting (sangat pendek)")
+  persentase_stunting      Float?  @map("persentase stunting")
+}
+
+model table_2023 {
+  id                       Int     @id
+  provinsi                 String?
+  jumlah_balita            Int?    @map("jumlah balita")
+  stunting__pendek_        Int?    @map("stunting (pendek)")
+  stunting__sangat_pendek_ Int?    @map("stunting (sangat pendek)")
+  persentase_stunting      Float?  @map("persentase stunting")
+}
+
+model table_2024 {
+  id                       Int     @id
+  provinsi                 String?
+  jumlah_balita            Int?    @map("jumlah balita")
+  stunting__pendek_        Int?    @map("stunting (pendek)")
+  stunting__sangat_pendek_ Int?    @map("stunting (sangat pendek)")
+  persentase_stunting      Float?  @map("persentase stunting")
+}
